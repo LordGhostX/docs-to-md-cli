@@ -59,7 +59,7 @@ def main(docs_url, method):
     with codecs.open(os.path.join(title, "index.md"), "w") as md:
         md.write(markdown)
 
-    print(f"Successfully converted '{r_title}' from Docs to MarkDown")
+    print(f"\nSuccessfully converted '{r_title}' from Docs to MarkDown")
 
 
 if __name__ == "__main__":
