@@ -6,20 +6,20 @@ CLI tool to convert Google Docs files to MarkDown
 
 * Converting Google Docs to Markdown
 
-```
+```bash
 python dtm.py <docs URL>
 python dtm.py <docs URL> <local|docs>
 ```
 
 * Converting Google Docs to MarkDown and Saving Images Locally
 
-```
+```bash
 python dtm.py <docs URL> local
 ```
 
 * Converting Google Docs to MarkDown and Saving Images on Google Servers
 
-```
+```bash
 python dtm.py <docs URL> docs
 ```
 
