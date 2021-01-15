@@ -28,8 +28,11 @@ def clean_href(html):
         return href.split("?q=")[1].split("&sa")[0]
 
     for i in html.find_all("a"):
-        html = BeautifulSoup(str(html).replace(i["href"].replace(
-            "&", "&amp;"), parse_href(i["href"])), "html.parser")
+        try:
+            html = BeautifulSoup(str(html).replace(i["href"].replace(
+                "&", "&amp;"), parse_href(i["href"])), "html.parser")
+        except:
+            pass
 
     return str(html)
 
