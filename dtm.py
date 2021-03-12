@@ -59,7 +59,7 @@ def main(docs_url, method):
         html = download_images(title, html)
 
     markdown = markdownify(html, heading_style="ATX").replace("\_", "_")
-    with codecs.open(os.path.join(title, "index.md"), "w") as md:
+    with codecs.open(os.path.join(title, "index.md"), "w", "utf-8") as md:
         md.write(markdown)
 
     print(f"\nSuccessfully converted '{r_title}' from Docs to MarkDown")
