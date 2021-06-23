@@ -54,10 +54,11 @@ def upload_devto(title, html):
         wget.download(i["src"], image_path)
         image_url = requests.post(
             url="https://dev.to/image_uploads",
-            data={"authenticity_token": "PxIh2FLKbtCjsnJCFg9iiqtfjwYPGJUQX81U6XTfD6/Ghvz9ps+Y2WbF0ZjsJHmLbE8+EhJjTnME2GD+Z2Q55g=="},
             files={"image[]": open(image_path, "rb")},
             headers={
-                "Cookie": "_Devto_Forem_Session=1bf1740aecef46679c49fe6da340a12f"}
+                "Cookie": "_Devto_Forem_Session=6f0e677ee8a6b618dc5938599647973d",
+                "X-CSRF-Token": "4QHd9XxW/f4naFxb5eU6On6BaFLvOTB6swIftLEmYlZgmtnHewRkirUgRG/tv8zhAV3ZS1/qWdGQmgLIPdwuaw=="
+            }
         ).json()["links"][0]
         os.remove(image_path)
         html = str(html).replace(i["src"], image_url)
