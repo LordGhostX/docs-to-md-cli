@@ -1,4 +1,4 @@
-requests==2.24.0
-markdownify==0.6.0
-wget==3.2
-beautifulsoup4==4.9.3
+requests
+markdownify
+wget
+bs4
