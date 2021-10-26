@@ -20,7 +20,7 @@ Click on the "Publish" button:
 
 Copy the Google Docs publish link under the link tab :
 
-![publish_step_1](docs_publish_step_3.png)
+![publish_step_2](docs_publish_step_3.png)
 
 
 * Convert Google Docs to Markdown
