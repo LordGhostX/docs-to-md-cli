@@ -23,6 +23,12 @@ $ python dtm.py <docs URL> local
 $ python dtm.py <docs URL> docs
 ```
 
+* Converting Google Docs to MarkDown and Saving Images on Dev.to Servers
+
+```bash
+$ python dtm.py <docs URL> devto
+```
+
 ## Author
 
 * [LordGhostX](https://twitter.com/LordGhostX) - Everyone's Friendly Neighbourhood Ghost
