@@ -8,7 +8,7 @@ A Command Line Interface(CLI) tool that converts Google Docs files to MarkDown
 
 ### Publish your Google Docs file to the web
 
-* STEP 1: Select "Publish to the web" tab found under the file menu as seen in the image below:
+* STEP 1: Select `Publish to the web` tab found under the file menu as seen in the image below:
 
 ![publish_step_1](docs_publish_step_1.jpg)
 
