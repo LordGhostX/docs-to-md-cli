@@ -15,12 +15,12 @@ Select "Publish to the web" tab found under the file menu as seen in the image b
 
 Click on the "Publish" button:
 
-![publish_step_1](docs_publish_step_2.png)
+![publish_step_2](docs_publish_step_2.PNG)
 
 
 Copy the Google Docs publish link under the link tab :
 
-![publish_step_2](docs_publish_step_3.png)
+![publish_step_3](docs_publish_step_3.PNG)
 
 
 * Convert Google Docs to Markdown
